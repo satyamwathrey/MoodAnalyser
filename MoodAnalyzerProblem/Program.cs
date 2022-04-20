@@ -10,7 +10,6 @@ namespace MoodAnalyzerProblem
     {
         static void Main(string[] args)
         {
-
             //Welcome Message
             Console.WriteLine("=-=-=-=-=-=-=-=Welcome To The Mood Analyzer Problem=-=-=-=-=-=-=-=");
 
@@ -25,6 +24,7 @@ namespace MoodAnalyzerProblem
             Console.WriteLine("Given Null Message:- " + moodAnalyser.AnalyzeMood());
 
             Console.ReadLine();
+
         }
     }
 }
